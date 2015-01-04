@@ -1,0 +1,33 @@
+{
+  "name": "regional-quadtree",
+  "version": "0.0.1",
+  "description": "Strange quadtree",
+  "private":true,
+  "scripts": {
+    "start": "node tasks/serve.js",
+    "test": "node tasks/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/schedul-xor/mt-closure.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/schedul-xor/mt-closure/issues"
+  },
+  "dependencies": {
+    "async": "~0.2.10",
+    "closure-util": "0.19.0",
+    "fs-extra": "~0.8.1",
+    "graceful-fs": "~3.0.2",
+    "htmlparser2": "~3.7.1",
+    "nclosure": "0.4.3",
+    "nomnom": "~1.6.2",
+    "temp": "~0.7.0",
+    "walk": "~2.3.3"
+  },
+  "devDependencies": {
+    "expect.js": "~0.3.1",
+    "mocha": "~1.20.1"
+  }
+}
