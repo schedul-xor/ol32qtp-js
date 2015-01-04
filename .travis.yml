@@ -12,4 +12,3 @@ before_script:
 script:
   - "find test | grep '.test.js$' | xargs mocha -R tap"
   - 'node tasks/build.js buildcfg/config.json qt.min.js'
-  - 'node tasks/build.js buildcfg/plain.json plain.min.js'
